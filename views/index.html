@@ -1,0 +1,43 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Time Stamper!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Time Stamper 5000
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Give me a date or unix time and I'll give you it's unix/date counter part</p>
+      Example:
+      <br>
+      <code>https://jgtimestamp.glitch.me/1450137600</code>
+      <br>
+      <code>https://jgtimestamp.glitch.me/December%2015,%202015</code>
+      <br>
+      <br>
+      Output:
+      <br>
+      <code>{"unix":1450137600,"natural":"December 15 2015"}</code>
+    </main>
+
+  </body>
+</html>
